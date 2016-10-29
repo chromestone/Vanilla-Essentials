@@ -1,0 +1,103 @@
+name: VanillaEssentials
+main: com.gmail.absolutevanillahelp.VanillaEssentials.VanillaEssentials
+version: 1.0
+commands:
+  ModestC:
+    description: Adds a prefix to name
+    usage: /ModestC
+    permission: VanillaEssentials.ModestC
+    permission-message:
+  SpawnC:
+    description: To spawn
+    usage: /SpawnC
+    permission: VanillaEssentials.SpawnC
+    permission-message:
+  RemoveC:
+    description: Greifs
+    usage: /RemoveC
+    permission: VanillaEssentials.RemoveC
+    permission-message:
+  FillC:
+    description: Griefs
+    usage: /FillC [Block] [Radius] [Type]
+    permission: VanillaEssentials.FillC
+    permission-message:
+  SetSpawnC:
+    description: Sets Spawn
+    usage: /SetSpawnC
+    permission: VanillaEssentials.SetSpawnC
+    permission-message:
+  FW:
+    description: FireWorks
+    usage: /FW
+    permission: VanillaEssentials.FW
+    permission-message:
+  SetHomeC:
+    description: SetsHome
+    usage: /SetHomeC
+    permission: VanillaEssentials.SetHomeC
+    permission-message:
+  HomeC:
+    description: Go home!
+    usage: /HomeC
+    permission: VanillaEssentials.HomeC
+    permission-message:
+  KillC:
+    description: Kills anyone
+    usage: /KillC [player]
+    permission: VanillaEssentials.KillC
+    permission-message:
+  UnlockC:
+    description: Known to few
+    usage: /UnlockC
+    permission: VanillaEssentials.UnlockC
+    permission-message:
+  SecureCheckC:
+    description: Known to few
+    usage: /SecureCheckC
+    permission: VanillaEssentials.SecureCheckC
+    permission-message:
+  IgnoreC:
+    description: Ignores a player
+    usage: /IgnoreC [player]
+    permission: VanillaEssentials.MuteC
+    permission-message:
+  UnIgnoreC:
+    description: Un-Ignores a player
+    usage: /UnIgnoreC [player]
+    permission: VanillaEssentials.UnMuteC
+    permission-message:
+  GunC:
+    description: Toggles Gun
+    usage: /GunC
+    permission: VanillaEssentials.GunC
+    permission-message:
+permissions:
+  VanillaEssentials.ModestC:
+    default: true
+  VanillaEssentials.FillC:
+    default: op
+  VanillaEssentials.RemoveC:
+    default: op
+  VanillaEssentials.SetSpawnC:
+    default: op
+  VanillaEssentials.SpawnC:
+    default: op
+  VanillaEssentials.FW:
+    default: true
+  VanillaEssentials.SetHomeC:
+    default: op
+  VanillaEssentials.HomeC:
+    default: true
+  VanillaEssentials.KillC:
+    default: op
+  VanillaEssentials.UnlockC:
+    default: true
+  VanillaEssentials.SecureCheckC:
+    default: true
+  VanillaEssentials.IgnoreC:
+    default: true
+  VanillaEssentials.UnIgnoreC:
+    default: true
+  VanillaEssentials.GunC:
+    default: op
