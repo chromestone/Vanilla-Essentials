@@ -1,18 +1,19 @@
-This plugin for Bukkit started out as a way to enforce "Vanilla" (no add ons, plain old regular original) gameplay in Minecraft, ironicaly.
+# Vanilla Essentials
+This plugin for Bukkit started out as a way to enforce "vanilla" (no _add ons_, plain old regular original) gameplay in Minecraft. _Ironic isn't it._
 
 Eventually, I saw a need for some fun and hierarchization.
 
-features include:
+**Features include:**
 
-gods, goddess, and elders
+* Gods, goddess, and elders
 
-"terrorist" players that can't break glass for some reason :)
+* "Terrorist protection" - players that can't break glass for some reason :)
 
-a rapid firing arrow gun
+* A rapid firing arrow gun
 
-secure players (they have to type in an extra password)
+* Secure players (they have to type in an extra password)
 
-a world edit like command that builds big ugly structures that lag the server and may crash it :)
+* A world edit like command that builds big ugly structures that "lag" the server and may crash it :)
 
 Bukkit version: bukkit-1.7.9-R0.1
 
